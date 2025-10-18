@@ -304,7 +304,7 @@ All scripts log to `canton_quest.log` in the root directory. Monitor this file f
 - Check log file for detailed error information
 - Verify file permissions with `chmod +x ./json-app/terminal*.sh`
 
-Happy coding with Daml! 🚀
+Good luck with your quests! 🚀
 
 ## ✍️ Feedback
 
