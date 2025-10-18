@@ -78,7 +78,11 @@ Confirm in desktop:
 
 **Note:** The program will show several windows - agree to all prompts and install everything requested for GitHub connection.
 
-### 6. Clone Files and Set Permissions
+</details>
+
+### Clone Files and Set Permissions
+
+Execute the commands one by one:
 ```bash
 git clone https://github.com/pittpv/canton-dev-quests.git
 
@@ -86,7 +90,6 @@ mv ./canton-dev-quests/json-app ./
 
 rm -rf ./canton-dev-quests
 ```
-</details>
 
 ## Quests
 
