@@ -305,8 +305,9 @@ Happy coding with Daml! 🚀
 Author [Pittpv](https://x.com/pittpv)
 
 **Donate**
-EVM: `0x4FD5eC033BA33507E2dbFE57ca3ce0A6D70b48Bf`
-SOL: `C9TV7Q4N77LrKJx4njpdttxmgpJ9HGFmQAn7GyDebH4R`
+
+- EVM: `0x4FD5eC033BA33507E2dbFE57ca3ce0A6D70b48Bf`
+- SOL: `C9TV7Q4N77LrKJx4njpdttxmgpJ9HGFmQAn7GyDebH4R`
 
 For any issues, suggestions, or feedback:
 
