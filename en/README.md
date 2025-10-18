@@ -261,7 +261,7 @@ bash ./json-app/terminal8.sh
 
 Wait for completion:
 
-![Terminal 8 Complete](../other/Скриншот%2018-10-2025%20192422.jpg)
+![Terminal 8 Complete](../other/Скриншот%2018-10-2025%20192518.jpg)
 
 **Screenshot requirements:**
 
