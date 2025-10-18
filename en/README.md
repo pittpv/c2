@@ -6,6 +6,7 @@
 ![First screen](../other/Canton-Homepage-Hero-Banner.png)
 
 This repository contains scripts for completing [Canton quests](https://earn.stackup.dev/campaigns/unlocking-canton-with-daml-unifying-traditional-and-crypto-markets-on-chain). To avoid any issues, please strictly follow the order (preparing, copying, and completing quests) and instructions. If you have any questions, please contact me via Telegram at the bottom of this description.
+Russia and Ukraine are blocked! When registering on StackUp, do not list them as your residency or nationality!
 
 ## Prerequisites
 
