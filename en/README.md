@@ -8,7 +8,8 @@ This repository contains a comprehensive Daml development quest with multiple te
 
 ## Prerequisites
 
-<Click and read>
+Click and read 👇🏻
+<details>
 
 ### 1. Install Visual Studio Code
 
@@ -78,7 +79,7 @@ Confirm in desktop:
 
 **Note:** The program will show several windows - agree to all prompts and install everything requested for GitHub connection.
 
-</Click and read>
+</details>
 
 ### Clone Files and Set Permissions
 
@@ -97,7 +98,7 @@ Each script is named `terminal1.sh`, `terminal2.sh`, etc. Each script should be 
 
 ### Quest 3
 
-<Click and read>
+<details>
 
 (Keep all terminals open until quest completion)
 
@@ -150,11 +151,11 @@ Wait for completion:
 Save screenshot as: `C52Q3_YourStackupLogin.png` or `.jpg`
 
 **Now press Ctrl+C in the second terminal and close all three terminals.**
-</Click and read>
+</details>
 
 ### Quest 4
 
-<Click and read>
+<details>
 
 Open new terminal and run:
 ```bash
@@ -187,11 +188,11 @@ Take full window screenshot - should look like:
 Save as: `C52Q4_YourStackupLogin.png` or `.jpg`
 
 You can close the terminal.
-</Click and read>
+</details>
 
 ### Quest 5
 
-<Click and read>
+<details>
 
 Open new terminal and run:
 ```bash
@@ -219,11 +220,11 @@ Take full window screenshot - should match the example:
 Save as: `C52Q5_YourStackupLogin.png` or `.jpg`
 
 You can close the terminal.
-</Click and read>
+</details>
 
 ### Quest 6
 
-<Click and read>
+<details>
 
 (Keep all terminals open until quest completion)
 
@@ -274,7 +275,7 @@ Wait for completion:
 Save screenshot as: `C52Q6_YourStackupLogin.png` or `.jpg`
 
 **Now press Ctrl+C in the seventh terminal and close all three terminals.**
-</Click and read>
+</details>
 
 ## Script Descriptions
 
