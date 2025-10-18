@@ -4,7 +4,7 @@
 - [🇷🇺 На русском языке](https://github.com/pittpv/canton-dev-quests/tree/main/ "Русская версия описания")
 
 
-This repository contains a comprehensive Daml development quest with multiple terminal scripts that guide you through various aspects of distributed ledger application development.
+This repository contains scripts for completing Canton quests. To avoid any issues, please strictly follow the order (preparing, copying, and completing quests) and instructions. If you have any questions, please contact me via Telegram at the bottom of this description.
 
 ## Prerequisites
 
