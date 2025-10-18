@@ -1,0 +1,95 @@
+module PersonData where
+
+import Daml.Script
+import DA.Optional
+import DA.List
+
+data PersonKey = PersonKey with
+   keyIssuer : Party
+   keyDataId : Text
+ deriving (Eq, Show)
+
+template PersonData
+ with
+   issuer : Party  
+   owner : Party    
+   dataId : Text     
+   personalInfo : (Text, Text, Int)
+   addresses : [Text]
+   contact : Optional Text
+ where
+   signatory issuer, owner
+   ensure dataId /= ""
+
+   choice UpdatePersonalInfo : ContractId PersonData
+     with
+       newInfo : (Text, Text, Int)
+     controller owner
+     do
+       archive self
+       create this with personalInfo = newInfo
+
+   choice AddAddress : ContractId PersonData
+     with
+       newAddress : Text
+     controller owner
+     do
+       archive self
+       create this with addresses = newAddress :: addresses
+
+   choice SetContact : ContractId PersonData
+     with
+       newContact : Text
+     controller owner
+     do
+       create this with contact = Some newContact
+
+   choice ClearContact : ContractId PersonData
+     controller owner
+     do
+       archive self
+       create this with contact = None
+
+template PersonDataProposal
+ with
+   proposal : PersonData
+ where
+   signatory proposal.issuer
+   observer proposal.owner 
+  
+   choice Accept : ContractId PersonData
+     controller proposal.owner
+     do
+       create proposal
+
+test_person_data = script do
+   issuer <- allocateParty "IssuerParty"
+   owner <- allocateParty "OwnerParty"
+  
+   let initialPersonData = PersonData with
+           issuer = issuer
+           owner = owner
+           dataId = "KYC-001"
+           personalInfo = ("Jane", "Doe", 35)
+           addresses = ["10 Downing Street"]
+           contact = Some "old.contact@example.com"
+          
+   proposalCid <- submit issuer do
+       createCmd PersonDataProposal with
+           proposal = initialPersonData
+
+
+   personCid <- submit owner do
+       exerciseCmd proposalCid Accept
+
+
+   Some contract <- queryContractId issuer personCid
+   assert (contract.contact == Some "old.contact@example.com")
+   let personKey = PersonKey with keyIssuer = issuer, keyDataId = "KYC-001"
+   newCid <- submit owner do
+     exerciseCmd personCid SetContact with
+         newContact = "new.contact@example.com"
+    
+   Some newContract <- queryContractId owner newCid
+   assert (newContract.contact == Some "new.contact@example.com")
+   return ()

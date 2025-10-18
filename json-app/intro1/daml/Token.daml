@@ -1,0 +1,38 @@
+module Token where
+import Daml.Script
+template Token
+
+  with
+    owner : Party
+  where
+    signatory owner
+
+token_test_1 = script do
+  alice <- allocateParty "Alice"
+  submit alice do
+      createCmd Token with owner = alice
+
+
+token_test_2 = do
+  alice <- allocateParty "Alice"
+  bob <- allocateParty "Bob"
+
+  submitMustFail alice do
+    createCmd Token with owner = bob
+  submitMustFail bob do
+    createCmd Token with owner = alice
+
+  submit alice do
+    createCmd Token with owner = alice
+  submit bob do
+    createCmd Token with owner = bob
+
+
+token_archive_exercise = script do
+  alice <- allocateParty "Alice"
+  
+  alice_token_cid <- submit alice do
+    createCmd Token with owner = alice
+  submit alice do
+    archiveCmd alice_token_cid
+    
