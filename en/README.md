@@ -88,7 +88,7 @@ git clone https://github.com/pittpv/canton-dev-quests.git
 
 mv ./canton-dev-quests/json-app ./
 
-rm -rf ./canton-dev-quests
+rm -rf ./canton-dev-quests && chmod +x /json-app/terminal*.sh
 ```
 
 ## Quests
