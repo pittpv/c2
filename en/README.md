@@ -132,7 +132,13 @@ Wait for completion:
 
 ![Terminal 3 Complete](../other/Скриншот%2017-10-2025%20224752.jpg)
 
-**Screenshot Instructions:**
+**Screenshot requirements:**
+
+- The last curl command
+- Your full screen, including your taskbar (Windows / Linux) or dock (MacOS)
+- The entire output of the command, including the contractId and templateId.
+
+**Screenshot recommendations:**
 - Expand file folder (1 on screenshot)
 - Close log file (2 on screenshot)
 - Scroll terminal window to this line (3 on screenshot)
@@ -168,6 +174,13 @@ Take full window screenshot - should look like:
 
 ![Quest 4 Result](../other/Скриншот%2018-10-2025%20104831.jpg)
 
+**Screenshot requirements:**
+
+- The code for token_test_1, token_test_2 and token_archive_exercise
+- Script results of token_test_2
+- Script results of token_archive_exercise
+- Your full screen, including your taskbar (Windows / Linux) or dock (MacOS)
+
 Save as: `C52Q4_YourStackupLogin.png` or `.jpg`
 
 You can close the terminal.
@@ -193,6 +206,12 @@ Click on "Script result" (1 on screenshot). A schema window will open. Check the
 Take full window screenshot - should match the example:
 
 ![Quest 5 Result](../other/Скриншот%2018-10-2025%20112605.jpg)
+
+**Screenshot requirements:**
+
+- The table for PersonData:PersonData. In particular, it must show the contact column.
+- Show archived checkbox is checked
+- Your full screen, including your taskbar (Windows / Linux) or dock (MacOS)
 
 Save as: `C52Q5_YourStackupLogin.png` or `.jpg`
 
@@ -235,11 +254,19 @@ Wait for completion:
 
 ![Terminal 8 Complete](../other/Скриншот%2018-10-2025%20192422.jpg)
 
-**Screenshot Instructions:**
+**Screenshot requirements:**
+
+- The createArgument segment of the command curl -X POST 'http://localhost:7575/v2/commands/submit-and-wait-for-transaction' \-H "Content-Type: application/json" \-d @accept_trade.json | jq .
+- Issuer is EUR_BANK, Owner is Bob
+- Currency is EUR and amount is 100
+- createdAt field shown clearly
+- Your full screen, including your taskbar (Windows / Linux) or dock (MacOS)
+
+**Screenshot recommendations:**
+
 - Expand `capstone` folder
 - Close log file
 - Scroll terminal window to appropriate location
-- Must show `createArgument: Issuer is EUR_BANK, Owner is Bob` and `createdAt`
 
 Save screenshot as: `C52Q6_YourStackupLogin.png` or `.jpg`
 
