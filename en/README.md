@@ -97,6 +97,8 @@ rm -rf ./canton-dev-quests && chmod +x /json-app/terminal*.sh
 
 Each script is named `terminal1.sh`, `terminal2.sh`, etc. Each script should be run in a separate terminal. After running the first script, immediately open the log file `/canton_quest.log` to see additional information.
 
+You don't need scripts for quests 1 and 2. Complete these quests yourself.
+
 ### Quest 3
 
 <details>
