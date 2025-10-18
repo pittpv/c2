@@ -171,6 +171,8 @@ Wait for completion:
 
 Click on first "Script result" - a schema window will open. Check the box (2 on screenshot).
 
+![Terminal 4 details](other/Скриншот%2018-10-2025%20104626.jpg)
+
 Hold Alt key and click button (1 on screenshot) to open new window (3 on screenshot).
 
 Click on second "Script result" and drag the schema down. Check the box as in previous schema.
