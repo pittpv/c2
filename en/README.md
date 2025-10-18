@@ -7,6 +7,8 @@
 
 This repository contains scripts for completing [Canton quests](https://earn.stackup.dev/campaigns/unlocking-canton-with-daml-unifying-traditional-and-crypto-markets-on-chain). To avoid any issues, please strictly follow the order (preparing, copying, and completing quests) and instructions. If you have any questions, please contact me via Telegram at the bottom of this description.
 
+⚠️ Deadline: Oct 24, 2025, 12:00 (GMT +08:00)
+
 ## Prerequisites
 
 👇🏻 Click and read
