@@ -3,7 +3,6 @@
 **Description in:**
 - [🇷🇺 На Русском](https://github.com/pittpv/canton-dev-quests/tree/main/ "Русская версия описания")
 
-
 This repository contains scripts for completing Canton quests. To avoid any issues, please strictly follow the order (preparing, copying, and completing quests) and instructions. If you have any questions, please contact me via Telegram at the bottom of this description.
 
 ## Prerequisites
@@ -302,6 +301,12 @@ All scripts log to `canton_quest.log` in the root directory. Monitor this file f
 Happy coding with Daml! 🚀
 
 ## ✍️ Feedback
+
+Author [Pittpv](https://x.com/pittpv)
+
+**Donate**
+EVM: `0x4FD5eC033BA33507E2dbFE57ca3ce0A6D70b48Bf`
+SOL: `C9TV7Q4N77LrKJx4njpdttxmgpJ9HGFmQAn7GyDebH4R`
 
 For any issues, suggestions, or feedback:
 

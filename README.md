@@ -304,6 +304,12 @@ bash ./json-app/terminal8.sh
 
 ## ✍️ Обратная связь
 
+Автор [Pittpv](https://x.com/pittpv)
+
+**Donate**
+EVM: `0x4FD5eC033BA33507E2dbFE57ca3ce0A6D70b48Bf`
+SOL: `C9TV7Q4N77LrKJx4njpdttxmgpJ9HGFmQAn7GyDebH4R`
+
 Любые вопросы, сообщения об ошибках или отзывы:
 
 https://t.me/+DLsyG6ol3SFjM2Vk
