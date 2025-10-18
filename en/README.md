@@ -8,7 +8,7 @@ This repository contains a comprehensive Daml development quest with multiple te
 
 ## Prerequisites
 
-Click and read 👇🏻
+👇🏻 Click and read
 <details>
 
 ### 1. Install Visual Studio Code
