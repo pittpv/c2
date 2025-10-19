@@ -1,7 +1,7 @@
 # Canton Quest - Daml Developer Quests 
 
 **Description in:**
-- [🇷🇺 На Русском](https://github.com/pittpv/canton-dev-quests/tree/main/ "Русская версия описания")
+- [🇷🇺 На Русском](https://github.com/pittpv/c2/tree/main/ "Русская версия описания")
 
 ![First screen](../other/Canton-Homepage-Hero-Banner.png)
 
@@ -88,11 +88,11 @@ Confirm in desktop:
 
 Execute the commands one by one:
 ```bash
-git clone https://github.com/pittpv/canton-dev-quests.git
+git clone https://github.com/pittpv/c2.git
 
-mv ./canton-dev-quests/json-app ./
+mv ./c2/json-app ./
 
-rm -rf ./canton-dev-quests && chmod +x /json-app/terminal*.sh
+rm -rf ./c2 && chmod +x /json-app/terminal*.sh
 ```
 
 ## Quests
