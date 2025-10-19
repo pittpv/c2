@@ -93,7 +93,7 @@ git clone https://github.com/pittpv/c2.git
 
 mv ./c2/json-app ./
 
-rm -rf ./c2 && chmod +x /json-app/terminal*.sh
+rm -rf ./c2 && chmod +x ./json-app/terminal*.sh
 ```
 
 ## Квесты
