@@ -332,7 +332,7 @@ main() {
 
     cd "$PROJECT_DIR"
 
-    echo -e "\033[32m@$USER\033[0m \033[37m➜\033[0m \033[34m$HOME (\033[31mmain\033[34m)\033[0m \$ curl -H \"Content-Type: application/json\" \\\\"
+    echo -e "\033[32m@$GITHUB_USER\033[0m \033[37m➜\033[0m \033[1;34m$PWD\033[0m \033[34m(\033[1;31mmain\033[34m)\033[0m \$ curl -H \"Content-Type: application/json\" \\\\"
     echo ">     -H \"Authorization: Bearer $ALICE_JWT\" \\"
     echo ">     -d @query.json \\"
     echo ">     -X POST localhost:7575/v1/query | jq"
