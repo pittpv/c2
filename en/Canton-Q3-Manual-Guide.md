@@ -1,4 +1,4 @@
-🧭 Canton Quest 3 — Complete Manual Walkthrough
+# 🧭 Canton Quest 3 — Complete Manual Walkthrough
 
 This guide combines steps from terminal1.sh, terminal2.sh, and terminal3.sh, allowing you to perform the quest manually while saving the obtained data to .env-canton for convenient substitution.
 
