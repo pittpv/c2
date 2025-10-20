@@ -9,7 +9,7 @@ This repository contains scripts for completing [Canton quests](https://earn.sta
 
 ⚠️ Deadline: Oct 24, 2025, 12:00 (GMT +08:00)
 
-## ⚠️ Disclaimer
+### Disclaimer
 
 <details>
 
