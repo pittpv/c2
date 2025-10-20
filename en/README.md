@@ -288,7 +288,7 @@ Save screenshot as: `C52Q6_YourStackupLogin.png` or `.jpg`
 
 <details>
 
-https://github.com/pittpv/c2/blob/main/other/Canton-Q6-Manual-Guide.md
+https://github.com/pittpv/c2/blob/main/en/Canton-Q6-Manual-Guide.md
 
 </details>
 
