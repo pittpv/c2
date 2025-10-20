@@ -286,6 +286,14 @@ bash ./json-app/terminal8.sh
 
 </details>
 
+### Квест 6 (в полуручном режиме)
+
+<details>
+
+https://github.com/pittpv/c2/blob/main/other/Canton-Q6-Manual-Guide.md
+
+</details>
+
 ## Описание скриптов
 
 - **terminal1.sh**: Установка Daml SDK и настройка окружения

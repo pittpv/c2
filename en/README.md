@@ -284,6 +284,14 @@ Save screenshot as: `C52Q6_YourStackupLogin.png` or `.jpg`
 **Now press Ctrl+C in the seventh terminal and close all three terminals.**
 </details>
 
+### Quest 6 (in semi-manual mode)
+
+<details>
+
+https://github.com/pittpv/c2/blob/main/other/Canton-Q6-Manual-Guide.md
+
+</details>
+
 ## Script Descriptions
 
 - **terminal1.sh**: Daml SDK installation and environment setup
