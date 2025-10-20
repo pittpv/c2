@@ -45,8 +45,12 @@ java -version
 ### Создание и компиляция Daml проекта
 ```bash
 daml new json-tests
+```
+```bash
 cd json-tests
 daml build
+```
+```bash
 cd ..
 ```
 
