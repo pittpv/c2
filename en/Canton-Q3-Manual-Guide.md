@@ -16,7 +16,7 @@ sudo apt install -y gnupg ca-certificates curl jq
 curl -sSL https://get.daml.com/ | sh -s 2.10.2
 ```
 
-### Copy the path
+### Bash Configuration 
 
 ![Daml Path](../other/Скриншот%2020-10-2025%20190857.jpg)
 
