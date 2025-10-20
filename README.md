@@ -171,6 +171,14 @@ bash ./json-app/terminal3.sh
 **Теперь во втором терминале нажмите Ctrl+C и закройте все три терминала.**
 </details>
 
+### Квест 3 (в полуручном режиме)
+
+<details>
+
+https://github.com/pittpv/c2/blob/main/other/Canton-Q3-Manual-Guide.md
+
+</details>
+
 ### Квест 4
 
 <details>

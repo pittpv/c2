@@ -169,6 +169,14 @@ Save screenshot as: `C52Q3_YourStackupLogin.png` or `.jpg`
 **Now press Ctrl+C in the second terminal and close all three terminals.**
 </details>
 
+### Quest 3 (in semi-manual mode)
+
+<details>
+
+https://github.com/pittpv/c2/blob/main/other/Canton-Q6-Manual-Guide.md
+
+</details>
+
 ### Quest 4
 
 <details>
