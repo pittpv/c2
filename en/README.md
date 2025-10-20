@@ -9,6 +9,17 @@ This repository contains scripts for completing [Canton quests](https://earn.sta
 
 ⚠️ Deadline: Oct 24, 2025, 12:00 (GMT +08:00)
 
+## ⚠️ Disclaimer
+
+<details>
+
+These scripts were created **for educational purposes only** and are intended to **optimize routine task execution**.
+Before using them, it is strongly recommended to **study the Canton Network materials** available on the **[StackUp](https://earn.stackup.dev/campaigns/unlocking-canton-with-daml-unifying-traditional-and-crypto-markets-on-chain)** platform.
+
+The author is **not responsible** for any consequences resulting from the misuse of these scripts.
+
+</details>
+
 ## Prerequisites
 
 👇🏻 Click and read
