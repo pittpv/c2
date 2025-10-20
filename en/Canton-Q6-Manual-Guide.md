@@ -513,4 +513,4 @@ cat ../.env-canton
 
 ---
 
-🧱 **You have now completed the full Daml Workflow manually!**
+🧱 **You have now completed the full Daml Workflow Quest 6 manually!**

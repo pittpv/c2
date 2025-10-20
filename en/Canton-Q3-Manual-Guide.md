@@ -232,3 +232,5 @@ curl -H "Content-Type: application/json" \
 | Contract query executed | 🎉 |
 
 ---
+
+🧱 **You have now completed the full Daml Workflow Quest 3 manually!**
