@@ -185,14 +185,19 @@ signing_key="secret"
 signature=$(echo -n "${encoded_header}.${encoded_payload}" | openssl dgst -sha256 -hmac "$signing_key" -binary | base64url_encode)
 NEW_JWT_TOKEN="${encoded_header}.${encoded_payload}.${signature}"
 
-export ALICE_JWT_NEW="$NEW_JWT_TOKEN"
-echo "ALICE_JWT_NEW=$NEW_JWT_TOKEN" >> ../.env-canton
+export ALICE_JWT="$NEW_JWT_TOKEN"
+
+# Удаляем старую переменную ALICE_JWT и добавляем новую
+if grep -q "ALICE_JWT" ../.env-canton; then
+    sed -i '/ALICE_JWT/d' ../.env-canton
+fi
+echo "ALICE_JWT=$NEW_JWT_TOKEN" >> ../.env-canton
 ```
 
 ### Create contract with new JWT token
 ```bash
 curl -s -H "Content-Type: application/json" \
-    -H "Authorization: Bearer $ALICE_JWT_NEW" \
+    -H "Authorization: Bearer $ALICE_JWT" \
     -d @create.json \
     -X POST localhost:7575/v1/create
 ```
@@ -211,7 +216,7 @@ EOF
 
 ```bash
 curl -H "Content-Type: application/json" \
-     -H "Authorization: Bearer $ALICE_JWT_NEW" \
+     -H "Authorization: Bearer $ALICE_JWT" \
      -d @query.json \
      -X POST localhost:7575/v1/query | jq
 ```
