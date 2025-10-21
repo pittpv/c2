@@ -188,7 +188,7 @@ https://github.com/pittpv/c2/blob/main/other/Canton-Q3-Manual-Guide.md
 bash ./json-app/terminal4.sh
 ```
 
-Дождитесь завершения:
+Дождитесь завершения и откройте файл `intro1/daml/Token.daml`:
 
 ![Терминал 4 завершен](other/Скриншот%2018-10-2025%20104316.jpg)
 

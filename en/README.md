@@ -186,7 +186,7 @@ Open new terminal and run:
 bash ./json-app/terminal4.sh
 ```
 
-Wait for completion:
+Wait for completion and open file `intro1/daml/Token.daml`:
 
 ![Terminal 4 Complete](../other/Скриншот%2018-10-2025%20104316.jpg)
 
