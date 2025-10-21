@@ -9,7 +9,7 @@ set -e
 # Configuration
 LOG_FILE="../canton_quest.log"
 PROJECT_DIR="json-tests"
-PID_DIR="$PROJECT_DIR"
+PID_DIR="./json-app"
 
 # Logging function
 log() {
@@ -65,7 +65,10 @@ start_canton_sandbox() {
     # Start sandbox in background and capture PID
     daml sandbox --wall-clock-time --dar "$dar_file" >> "../$LOG_FILE" 2>&1 &
     SANDBOX_PID=$!
-    echo "$SANDBOX_PID" > sandbox.pid
+
+    # Create PID directory if it doesn't exist
+    mkdir -p "../$PID_DIR"
+    echo "$SANDBOX_PID" > "../$PID_DIR/sandbox.pid"
 
     log "Canton Sandbox started with PID: $SANDBOX_PID"
 
@@ -175,7 +178,10 @@ start_json_api() {
     # Start JSON API in background and capture PID
     daml json-api --config json-api-app.conf >> "../$LOG_FILE" 2>&1 &
     JSON_API_PID=$!
-    echo "$JSON_API_PID" > json_api.pid
+
+    # Create PID directory if it doesn't exist
+    mkdir -p "../$PID_DIR"
+    echo "$JSON_API_PID" > "../$PID_DIR/json_api.pid"
 
     log "JSON API started with PID: $JSON_API_PID"
     log "JSON API is running on localhost:7575"

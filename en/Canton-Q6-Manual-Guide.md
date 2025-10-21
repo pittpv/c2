@@ -2,6 +2,10 @@
 
 This guide combines steps from `terminal6.sh`, `terminal7.sh`, and `terminal8.sh`, allowing you to **complete the quest manually** while saving obtained data (party ID, contract ID, etc.) to `.env-canton` for convenient substitution.
 
+## Video of the process (8 minutes)
+
+https://x.com/pittpv/status/1980689185997746679
+
 ---
 
 ## ⚙️ Preparation
