@@ -2,12 +2,9 @@
 
 This guide combines steps from terminal1.sh, terminal2.sh, and terminal3.sh, allowing you to perform the quest manually while saving the obtained data to .env-canton for convenient substitution.
 
-## Video of the process
+## Video of the process (9 minutes)
 
-<video width="600" controls>
-  <source src="../other/Canton-3-semi-manual.mp4" type="video/mp4">
-  Ваш браузер не поддерживает видео тег.
-</video>
+https://x.com/pittpv/status/1980638779934470391
 
 ## 🧩 Terminal 1: Install Daml SDK and Compile Daml Model
 
