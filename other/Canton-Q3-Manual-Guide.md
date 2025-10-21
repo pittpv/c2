@@ -5,7 +5,7 @@
 ## Видео инструкция
 
 <video width="600" controls>
-  <source src="../other/Canton-3-semi-manual.mp4" type="video/mp4">
+  <source src="https://github.com/pittpv/c2/blob/main/other/Canton-3-semi-manual.mp4" type="video/mp4">
   Ваш браузер не поддерживает видео тег.
 </video>
 
